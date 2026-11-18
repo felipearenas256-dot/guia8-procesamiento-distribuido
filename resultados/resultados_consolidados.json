@@ -1,0 +1,64 @@
+{
+  "archivo": "ventas_500k.csv",
+  "registros": 500000,
+  "ingresos_totales_COP": 1032194440715.25,
+  "unidades_totales": 1608140,
+  "top_cinco_productos": [
+    {
+      "producto": "Mouse",
+      "unidades": 288614
+    },
+    {
+      "producto": "Audífonos",
+      "unidades": 257504
+    },
+    {
+      "producto": "Teclado",
+      "unidades": 230875
+    },
+    {
+      "producto": "DiscoDuro",
+      "unidades": 173076
+    },
+    {
+      "producto": "Smartphone",
+      "unidades": 143226
+    }
+  ],
+  "ingresos_por_ciudad_COP": {
+    "Barranquilla": 126979039399.54,
+    "Bogotá": 127721758569.76,
+    "Bucaramanga": 130242796495.47,
+    "Cali": 128602342014.11,
+    "Cartagena": 128141282704.62,
+    "Cúcuta": 130501031110.65,
+    "Medellín": 129451395028.84,
+    "Pereira": 130554795392.26
+  },
+  "ingresos_por_mes_COP": {
+    "2025-01": 65399300543.16,
+    "2025-02": 56434236291.67,
+    "2025-03": 72245172509.63,
+    "2025-04": 72124678213.42,
+    "2025-05": 81250394868.79,
+    "2025-06": 79014650227.51,
+    "2025-07": 72101954404.59,
+    "2025-08": 78353823867.94,
+    "2025-09": 88214414476.61,
+    "2025-10": 95602066731.71,
+    "2025-11": 127237063004.9,
+    "2025-12": 144216685575.32
+  },
+  "unidades_por_producto": {
+    "Mouse": 288614,
+    "Audífonos": 257504,
+    "Teclado": 230875,
+    "DiscoDuro": 173076,
+    "Smartphone": 143226,
+    "SillaOficina": 114770,
+    "Tablet": 114615,
+    "Monitor": 113783,
+    "Laptop": 86080,
+    "Impresora": 85597
+  }
+}

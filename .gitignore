@@ -1,0 +1,12 @@
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Conjunto grande (100 MB): se regenera con  python generar_datos.py --grande
+datos/ventas_2m.csv
+
+# Archivos temporales de Word y del sistema
+~$*
+*.tmp
+Thumbs.db
+desktop.ini

@@ -1,0 +1,93 @@
+{
+  "archivo": "ventas_500k.csv",
+  "estrategia": "B - bloques del archivo",
+  "nodos": [
+    {
+      "nodo": 1,
+      "pid": 4880,
+      "bytes": 6516620,
+      "registros": 125012,
+      "ingresos_COP": 258823470518.53,
+      "unidades": 402873,
+      "tiempo_s": 0.3791,
+      "ingresos_ciudad_COP": {
+        "Barranquilla": 31785997004.85,
+        "Bogotá": 31728352398.9,
+        "Bucaramanga": 33083075377.75,
+        "Cali": 32953715415.67,
+        "Cartagena": 32189509391.05,
+        "Cúcuta": 32313094636.63,
+        "Medellín": 32726719058.77,
+        "Pereira": 32043007234.91
+      }
+    },
+    {
+      "nodo": 2,
+      "pid": 11808,
+      "bytes": 6516556,
+      "registros": 124973,
+      "ingresos_COP": 256157204513.51,
+      "unidades": 401820,
+      "tiempo_s": 0.3632,
+      "ingresos_ciudad_COP": {
+        "Barranquilla": 32183090352.88,
+        "Bogotá": 31500189443.22,
+        "Bucaramanga": 32453608905.73,
+        "Cali": 31884660659.8,
+        "Cartagena": 31860791946.2,
+        "Cúcuta": 32032956561.43,
+        "Medellín": 31626502354.09,
+        "Pereira": 32615404290.16
+      }
+    },
+    {
+      "nodo": 3,
+      "pid": 26780,
+      "bytes": 6516564,
+      "registros": 125004,
+      "ingresos_COP": 257275289295.19,
+      "unidades": 401490,
+      "tiempo_s": 0.3565,
+      "ingresos_ciudad_COP": {
+        "Barranquilla": 31520810518.51,
+        "Bogotá": 32518352929.66,
+        "Bucaramanga": 32414396256.63,
+        "Cali": 32277869778.05,
+        "Cartagena": 31522993739.33,
+        "Cúcuta": 32581952129.53,
+        "Medellín": 31702754354.31,
+        "Pereira": 32736159589.17
+      }
+    },
+    {
+      "nodo": 4,
+      "pid": 10016,
+      "bytes": 6516554,
+      "registros": 125011,
+      "ingresos_COP": 259938476388.02,
+      "unidades": 401957,
+      "tiempo_s": 0.3833,
+      "ingresos_ciudad_COP": {
+        "Barranquilla": 31489141523.3,
+        "Bogotá": 31974863797.98,
+        "Bucaramanga": 32291715955.36,
+        "Cali": 31486096160.59,
+        "Cartagena": 32567987628.04,
+        "Cúcuta": 33573027783.06,
+        "Medellín": 33395419261.67,
+        "Pereira": 33160224278.02
+      }
+    }
+  ],
+  "suma_de_parciales": {
+    "registros": 500000,
+    "ingresos_COP": 1032194440715.25,
+    "unidades": 1608140
+  },
+  "consolidado_final": {
+    "registros": 500000,
+    "ingresos_COP": 1032194440715.25,
+    "unidades": 1608140
+  },
+  "coincide_con_secuencial": true
+}

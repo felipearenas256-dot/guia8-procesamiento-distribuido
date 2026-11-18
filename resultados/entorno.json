@@ -1,0 +1,15 @@
+{
+  "fecha_prueba": "2026-11-17 19:14:20",
+  "python": "3.12.10",
+  "sistema_operativo": "Windows-11-10.0.26200-SP0",
+  "procesador": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "nucleos_fisicos": 6,
+  "procesadores_logicos": 12,
+  "nodos_simulados": 4,
+  "repeticiones_por_medicion": 5,
+  "estadistico": "mediana",
+  "estrategia_A": "envío de registros, round-robin (i mod N)",
+  "estrategia_B": "localidad de datos, bloques de bytes alineados a línea",
+  "semilla_datos": 42,
+  "observacion": "Simulación local con multiprocessing; no es un clúster distribuido real."
+}

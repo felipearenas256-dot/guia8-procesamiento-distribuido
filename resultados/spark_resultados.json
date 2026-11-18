@@ -1,0 +1,77 @@
+{
+  "version_spark": "3.5.3",
+  "master": "local[4]",
+  "arranque_sesion_s": 6.5,
+  "repeticiones": 3,
+  "nota": "Tiempo de consulta sin incluir el arranque de la JVM; un equipo, no un clúster real.",
+  "tabla": [
+    {
+      "archivo": "ventas_10k.csv",
+      "registros": 10000,
+      "particiones_spark": 4,
+      "t_python_secuencial_s": 0.0207,
+      "t_python_bloques_B_s": 0.2562,
+      "t_spark_s": 1.1728,
+      "aceleracion_vs_python": 0.018,
+      "resultados_iguales": true,
+      "top5": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    },
+    {
+      "archivo": "ventas_100k.csv",
+      "registros": 100000,
+      "particiones_spark": 4,
+      "t_python_secuencial_s": 0.2283,
+      "t_python_bloques_B_s": 0.2964,
+      "t_spark_s": 1.2006,
+      "aceleracion_vs_python": 0.19,
+      "resultados_iguales": true,
+      "top5": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    },
+    {
+      "archivo": "ventas_500k.csv",
+      "registros": 500000,
+      "particiones_spark": 4,
+      "t_python_secuencial_s": 1.2673,
+      "t_python_bloques_B_s": 0.7175,
+      "t_spark_s": 1.839,
+      "aceleracion_vs_python": 0.689,
+      "resultados_iguales": true,
+      "top5": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    },
+    {
+      "archivo": "ventas_2m.csv",
+      "registros": 2000000,
+      "particiones_spark": 4,
+      "t_python_secuencial_s": 5.3441,
+      "t_python_bloques_B_s": 1.9401,
+      "t_spark_s": 5.2405,
+      "aceleracion_vs_python": 1.02,
+      "resultados_iguales": true,
+      "top5": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    }
+  ]
+}

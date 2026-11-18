@@ -1,0 +1,147 @@
+{
+  "archivo": "ventas_100k.csv",
+  "nodos": 4,
+  "nodo_que_falla": 3,
+  "timeout_s": 3.0,
+  "max_reintentos": 3,
+  "top5_referencia": [
+    "Mouse",
+    "Audífonos",
+    "Teclado",
+    "DiscoDuro",
+    "Smartphone"
+  ],
+  "escenarios": [
+    {
+      "escenario": "Normal (sin fallos)",
+      "modo_fallo": "ninguno",
+      "tolerante": true,
+      "nodo_que_falla": null,
+      "nodos_entregados": 4,
+      "particiones_perdidas": 0,
+      "reintentos": 0,
+      "tiempo_total_s": 0.3089,
+      "tiempo_deteccion_s": 0.3019,
+      "checkpoints": [
+        "nodo_1.json",
+        "nodo_2.json",
+        "nodo_3.json",
+        "nodo_4.json"
+      ],
+      "bitacora": [],
+      "registros_esperados": 100000,
+      "registros_consolidados": 100000,
+      "registros_perdidos": 0,
+      "error_ingresos_pct": 0.0,
+      "resultado_correcto": true,
+      "detalle_verificacion": "OK",
+      "top5_obtenido": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    },
+    {
+      "escenario": "Sin tolerancia a fallos",
+      "modo_fallo": "excepcion",
+      "tolerante": false,
+      "nodo_que_falla": 3,
+      "nodos_entregados": 3,
+      "particiones_perdidas": 1,
+      "reintentos": 0,
+      "tiempo_total_s": 0.2462,
+      "tiempo_deteccion_s": 0.2407,
+      "checkpoints": [
+        "nodo_1.json",
+        "nodo_2.json",
+        "nodo_4.json"
+      ],
+      "bitacora": [
+        "Nodo 3: fallo simulado (proceso caído)"
+      ],
+      "registros_esperados": 100000,
+      "registros_consolidados": 75016,
+      "registros_perdidos": 24984,
+      "error_ingresos_pct": 24.8,
+      "resultado_correcto": false,
+      "detalle_verificacion": "número de registros",
+      "top5_obtenido": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    },
+    {
+      "escenario": "Caída + reintento",
+      "modo_fallo": "excepcion",
+      "tolerante": true,
+      "nodo_que_falla": 3,
+      "nodos_entregados": 4,
+      "particiones_perdidas": 0,
+      "reintentos": 1,
+      "tiempo_total_s": 0.2808,
+      "tiempo_deteccion_s": 0.2258,
+      "checkpoints": [
+        "nodo_1.json",
+        "nodo_2.json",
+        "nodo_3.json",
+        "nodo_4.json"
+      ],
+      "bitacora": [
+        "Nodo 3: fallo simulado (proceso caído)",
+        "Nodo 3: partición recuperada en el intento 2 (PID 27892)"
+      ],
+      "registros_esperados": 100000,
+      "registros_consolidados": 100000,
+      "registros_perdidos": 0,
+      "error_ingresos_pct": 0.0,
+      "resultado_correcto": true,
+      "detalle_verificacion": "OK",
+      "top5_obtenido": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    },
+    {
+      "escenario": "Bloqueo + timeout",
+      "modo_fallo": "bloqueo",
+      "tolerante": true,
+      "nodo_que_falla": 3,
+      "nodos_entregados": 4,
+      "particiones_perdidas": 0,
+      "reintentos": 1,
+      "tiempo_total_s": 3.0894,
+      "tiempo_deteccion_s": 3.0374,
+      "checkpoints": [
+        "nodo_1.json",
+        "nodo_2.json",
+        "nodo_3.json",
+        "nodo_4.json"
+      ],
+      "bitacora": [
+        "Nodo 3: sin respuesta tras 3.0 s (timeout)",
+        "Nodo 3: partición recuperada en el intento 2 (PID 27764)"
+      ],
+      "registros_esperados": 100000,
+      "registros_consolidados": 100000,
+      "registros_perdidos": 0,
+      "error_ingresos_pct": 0.0,
+      "resultado_correcto": true,
+      "detalle_verificacion": "OK",
+      "top5_obtenido": [
+        "Mouse",
+        "Audífonos",
+        "Teclado",
+        "DiscoDuro",
+        "Smartphone"
+      ]
+    }
+  ]
+}

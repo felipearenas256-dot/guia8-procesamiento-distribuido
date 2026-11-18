@@ -1,0 +1,14 @@
+{
+  "registros": 100000,
+  "iteraciones_por_registro": 120,
+  "nodos": 4,
+  "repeticiones": 3,
+  "tiempo_secuencial_s": 2.8972,
+  "tiempo_distribuido_s": 1.1994,
+  "tiempo_calculo_nodos_s": 3.3253,
+  "costo_coordinacion_s": 0.283,
+  "aceleracion": 2.416,
+  "eficiencia": 0.604,
+  "diferencia_relativa_indice": 0.0,
+  "resultados_iguales": true
+}

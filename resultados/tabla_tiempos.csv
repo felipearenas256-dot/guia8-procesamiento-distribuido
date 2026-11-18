@@ -1,0 +1,4 @@
+archivo,registros,nodos,repeticiones,t_secuencial_calculo_s,t_secuencial_calculo_desv,t_distribuido_A_s,t_distribuido_A_desv,aceleracion_A,eficiencia_A,coordinacion_A_s,verificacion_A,t_secuencial_completo_s,t_secuencial_completo_desv,t_distribuido_B_s,t_distribuido_B_desv,aceleracion_B,eficiencia_B,coordinacion_B_s,verificacion_B,throughput_B_reg_s,resultados_iguales
+ventas_10k.csv,10000,4,5,0.0083,0.0008,0.1919,0.027,0.043,0.011,0.187,OK,0.0193,0.0013,0.2454,0.0758,0.079,0.02,0.1941,OK,40749,True
+ventas_100k.csv,100000,4,5,0.0469,0.0062,0.2977,0.0121,0.158,0.039,0.2919,OK,0.285,0.0353,0.2344,0.0269,1.216,0.304,0.1651,OK,426611,True
+ventas_500k.csv,500000,4,5,0.1935,0.0192,1.0386,0.0237,0.186,0.047,0.9968,OK,1.0271,0.0993,0.5292,0.0407,1.941,0.485,0.1445,OK,944751,True
